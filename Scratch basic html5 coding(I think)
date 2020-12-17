@@ -1,7 +1,7 @@
 When green flag clicked
 set rotation style [left-right v]
-if (((key (right arrow v) pressed or (key (left arrow v) pressed))) then
-switch costume to (X walking 1)
+if <<key (right arrow v ) pressed?> or <key (left arrow v) pressed>> then
+switch costume to (X walking 1 v)
 
 else
 switch costume to (X step)
